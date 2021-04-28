@@ -21,4 +21,8 @@ public class BeanProvider {
   public void pushingtofeature() {
     
   }
+  @Bean
+  public void pushingtofeaturetwo() {
+    
+  }
 }
