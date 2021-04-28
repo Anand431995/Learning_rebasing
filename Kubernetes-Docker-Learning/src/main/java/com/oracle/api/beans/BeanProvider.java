@@ -17,4 +17,8 @@ public class BeanProvider {
     
   }
 
+  @Bean
+  public void pushingtofeature() {
+    
+  }
 }
