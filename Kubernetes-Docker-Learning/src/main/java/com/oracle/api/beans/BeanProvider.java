@@ -15,7 +15,11 @@ public class BeanProvider {
   public RestTemplate resttemplateprovider() {
     return new RestTemplate();
   }
-  
+  @Bean
+  public void secondpushtomaster()
+  {
+    
+  }
   @Bean
   public void help() {
     
