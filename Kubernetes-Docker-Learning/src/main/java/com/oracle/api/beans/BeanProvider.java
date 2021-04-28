@@ -8,6 +8,10 @@ import org.springframework.web.client.RestTemplate;
 public class BeanProvider {
   
   @Bean
+  public void pushtomasteraftercut() {
+    
+  }
+  @Bean
   public RestTemplate resttemplateprovider() {
     return new RestTemplate();
   }
